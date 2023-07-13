@@ -2,7 +2,8 @@ input {
   padding: 20px;
   border: 2px solid white;
   font-size: 18px;
-  width: 70%;
+  max-width: 100%;
+  width: 50%;
   text-align: start;
   outline: none;
 }
