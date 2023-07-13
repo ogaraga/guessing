@@ -1,0 +1,67 @@
+input {
+  padding: 20px;
+  border: 2px solid white;
+  font-size: 21px;
+  width: 70%;
+  text-align: start;
+  outline: none;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+#ok {
+  padding: 10px;
+  width: 110px;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#cancel {
+  padding: 10px;
+  width: 100px;
+  background-color: red;
+  color: black;
+  font-weight: bolder;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 20px;
+}
+#hint {
+  text-align: center;
+  font-size: 23px;
+  color: blue;
+  margin: 10px auto;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 23px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-family: cursive, verdana;
+}
+#guess {
+  text-align: center;
+  font-size: 23px;
+  color: green;
+  margin: 10px auto;
+}
+body {
+  background-color: grey;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
