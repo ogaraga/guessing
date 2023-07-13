@@ -16,18 +16,18 @@ ok.addEventListener("click", () => {
         guess.innerText = "";
     }
     else if (input.value > rndum && input.value !== "") {
-        hint.innerText = ` Wrong! Greater than generated number: ${rndum}`;
+        hint.innerText = ` Wrong! your guess is greater than machine number: ${rndum}`;
         guess.innerText = "";
         input.value = "";
     }
     else if (input.value < rndum && input.value !== "") {
-        hint.innerText = `Wrong! less than generated number: ${rndum}`;
+        hint.innerText = `Wrong! your guess is less than machine number: ${rndum}`;
         guess.innerText = "";
         input.value = "";
     }
     else {
-        hint.innerText = `Correct! Equal to generated number: ${rndum}`;
-        guess.innerText = `Congrats! Your guess is correct after ${guesses} guess(es)`;
+        hint.innerText = `Correct! your guess is the same as machine number: ${rndum}`;
+        guess.innerText = `Congrats! You guessed well after ${guesses} guess(es)`;
         input.value = "";
         guesses = 0;
     }

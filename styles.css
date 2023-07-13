@@ -17,18 +17,27 @@ input {
     margin: auto;
   }
   button {
-    margin: -20px auto;
+    margin: auto;
+  }
+  body {
+    margin: 10% auto;
+    height: 100%;
+  }
+  .btn {
+    margin: auto;
   }
 }
 .btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px auto;
+  margin: auto;
+  margin-top: 10%;
 }
 #ok {
   padding: 10px;
   width: 110px;
+  text-align: center;
   background-color: green;
   color: white;
   font-weight: bolder;
@@ -47,6 +56,7 @@ input {
   border: none;
   outline: none;
   cursor: pointer;
+  text-align: center;
   margin: 10px;
   font-size: 20px;
 }
@@ -62,6 +72,7 @@ h1 {
   font-size: 23px;
   letter-spacing: 5px;
   word-spacing: 10px;
+  margin: auto;
   font-family: cursive, verdana;
 }
 #guess {
@@ -76,6 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  max-height: 100vh;
+  height: 70vh;
   flex-direction: column;
 }
