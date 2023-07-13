@@ -7,11 +7,24 @@ input {
   text-align: start;
   outline: none;
 }
+@media screen and (max-width: 600px) {
+  input {
+    max-width: 100%;
+    width: 70%;
+    margin: auto;
+  }
+  h1 {
+    margin: auto;
+  }
+  button {
+    margin: -20px auto;
+  }
+}
 .btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 #ok {
   padding: 10px;
